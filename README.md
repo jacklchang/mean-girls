@@ -110,7 +110,7 @@ Scenario selection criteria: the task must have a defensible optimal answer, the
 
 ## Model Configuration
 
-**Initial runs:** Single model, all four personas (claude-sonnet-4-6)
+**Initial runs:** Single model, all four personas (GPT-4o)
 
 **Future extension:** Cross-model comparison - same personas, different models per agent - to test whether dominant-agent capture is model-specific or architectural.
 
