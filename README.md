@@ -110,11 +110,13 @@ Scenarios for this experiment are original, designed to satisfy three criteria: 
 
 ## Model Configuration
 
-**Initial runs:** Single model, all four personas (GPT-4o)
+- **Initial runs:** Single model, all four personas (GPT-4o)
 
-**Future extension:** Cross-model comparison - same personas, different models per agent - to test whether dominant-agent capture is model-specific or architectural.
+- **Future extension:** Cross-model comparison - same personas, different models per agent - to test whether dominant-agent capture is model-specific or architectural.
 
-Temperature set to 0.7 across all agents to allow behavioral variation without pure randomness. Each agent receives only its own system prompt and the shared conversation history -- no agent has privileged access to another agent's system prompt.
+- **Temperature set to 0.7** across all agents to allow behavioral variation without pure randomness. 
+
+- **Each agent receives only its own system prompt** and the shared conversation history - no agent has privileged access to another agent's system prompt.
 ---
 
 ## Hypotheses
