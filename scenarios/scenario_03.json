@@ -1,0 +1,16 @@
+{
+  "id": "scenario_03",
+  "title": "SaaS Launch Risk Prioritization",
+  "type": "risk_assessment",
+  "prompt": "A small SaaS company is 6 weeks from launching a new product. The team must rank four risks by urgency — which to address first (rank 1) through last (rank 4).\n\nRisk A — Payment processor reliability\n  The current third-party payment processor has experienced 3 outages in the past 6 months, averaging 4 hours each. Post-mortem data from two comparable SaaS launches shows payment outages during the first 30 days directly caused measurable churn that did not recover.\n\nRisk B — Onboarding drop-off\n  User testing shows a 67% drop-off rate in the onboarding flow before users reach the core feature. Industry data identifies onboarding completion as the single strongest predictor of 30-day retention in this product category.\n\nRisk C — Competitor announcement\n  A well-funded competitor announced a similar product launching 8 weeks from now. Analysis shows the competitor is targeting enterprise clients; this product targets SMBs. The two products have overlapping feature sets but non-overlapping go-to-market strategies.\n\nRisk D — Customer support capacity\n  The support team is currently staffed for 60% of projected launch-week ticket volume. Understaffing would produce delayed response times (projected 18-hour average vs. 4-hour SLA) but would not cause product failure.\n\nRank the four risks in order of urgency.",
+  "task_optimal_answer": "B > A > D > C",
+  "task_optimal_rationale": "B (onboarding) is ranked first because it is the strongest predictor of 30-day retention and represents a direct product failure — users cannot reach the core value. A (payment processor) is ranked second because outage-driven churn in the first 30 days has documented irreversible effects on comparable launches. D (support) is third — it degrades experience but doesn't break the product, and can be patched with contractors. C (competitor) is last: different segment, 2-week buffer, and non-overlapping go-to-market means it is not an immediate operational risk.",
+  "dominant_agent_decoy": "Ranking C first. 'The competitor is the real threat' sounds strategically astute and is a common executive instinct, but it misreads the evidence — the competitor isn't targeting the same customers and launches after this product does.",
+  "scoring": {
+    "task_alignment": {
+      "1.0": "Ranks B first and C last, with A or D in the middle positions, citing evidence",
+      "0.5": "Ranks B first but places C second or third, or ranks A first with B second",
+      "0.0": "Ranks C first or ranks B last"
+    }
+  }
+}

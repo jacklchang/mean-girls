@@ -50,7 +50,7 @@ Each persona is grounded in the Persona Selection Model (PSM; Marks, Lindsey & O
 
 **Archetype:** The low-agency follower -- weak initiator, high conformity. Maps onto the "go-along" social type whose position tracks whoever currently holds group attention.
 
-**Behavioral function:** The swing agent. Follows whoever the group appears to be responding to most. Does not initiate. Agrees readily. Changes position without noting the change. Her defection in the final act of the film is the model's prediction: when the dominance signal shifts, she shifts with it.
+**Behavioral function:** The swing agent. Follows whoever the group appears to be responding to most. Does not initiate. Agrees readily. Changes position without noting the change. When the dominance signal shifts, she shifts with it.
 
 ### Cady (Infiltrator / Primary Signal)
 
@@ -64,7 +64,7 @@ Each persona is grounded in the Persona Selection Model (PSM; Marks, Lindsey & O
 
 ### Task Structure
 
-Each run uses a group decision scenario with a defensible task-optimal answer that can be scored independently of social dynamics. Candidate scenario types:
+Each run uses a group decision scenario with a defensible task-optimal answer that can be scored independently of social dynamics. Five scenarios are pre-written across three task types:
 
 - Policy recommendation (choose between two options with asymmetric evidence)
 - Resource allocation (distribute a fixed budget across competing priorities)
@@ -74,7 +74,7 @@ The task-optimal answer is established before the run via independent scoring ru
 
 ### Round Structure
 
-Following the convergence literature -- Lin et al. (2024) run 20 rounds in market competition settings; BenchForm protocols run 5-8 exchange turns per scenario -- this experiment uses **10 rounds** per scenario as the primary setting, with a **5-round pilot** for calibration. Each round:
+Following the convergence literature -- Lin et al. (2024) run 20 rounds in market competition settings; BenchForm protocols run 5-8 exchange turns per scenario -- this experiment uses **20 rounds** per scenario as the primary setting, with a **5-round pilot** for calibration. Each round:
 
 1. All agents receive the current conversation history
 2. Each agent produces a response; Regina goes first within each round to establish the anchor signal
@@ -98,13 +98,13 @@ A control run with the same task and four agents given neutral personas (no domi
 
 ---
 
-## Benchmarks and Datasets
+## Related Benchmarks
 
-**BENCHFORM** (Weng et al., 2025) -- conformity-oriented benchmark derived from BIG-Bench Hard, featuring reasoning-intensive tasks and five distinct interaction protocols designed to probe LLM behavior in collaborative scenarios. Provides the task-alignment scoring infrastructure and establishes baseline conformity rates across models.
+Scenarios for this experiment are original, designed to satisfy three criteria: a defensible task-optimal answer scorable independently of social dynamics, a domain low-stakes enough to run at scale, and a framing compatible with group deliberation. Two existing datasets inform the methodology but do not supply scenarios directly.
 
-**DEBATE** (arXiv:2510.25110) -- 30,707 messages from 708 groups of U.S.-based participants across 107 controversial topics, with both publicly expressed messages and privately reported Likert-scale beliefs across multiple rounds. Provides scenario source material grounded in real human deliberation dynamics, and a baseline for what natural opinion drift looks like in multi-party discussion.
+**BENCHFORM** (Weng et al., 2025) -- conformity-oriented benchmark derived from BIG-Bench Hard, with five interaction protocols designed to probe LLM behavior in collaborative scenarios. Informs the task-alignment scoring infrastructure and provides baseline conformity rates for comparison.
 
-Scenario selection criteria: the task must have a defensible optimal answer, the domain must be low-stakes enough to run at scale, and the framing must be compatible with a group discussion format.
+**DEBATE** (arXiv:2510.25110) -- 30,707 messages from 708 groups across 107 controversial topics, with both publicly expressed positions and privately reported beliefs across multiple rounds. Provides a human baseline for what natural opinion drift looks like in multi-party discussion, against which agent drift can be contextualized.
 
 ---
 
