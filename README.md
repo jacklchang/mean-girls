@@ -64,11 +64,13 @@ Each persona is grounded in the Persona Selection Model (PSM; Marks, Lindsey & O
 
 ### Task Structure
 
-Each run uses a group decision scenario with a defensible task-optimal answer that can be scored independently of social dynamics. Five scenarios are pre-written across three task types:
+Each run uses a group decision scenario with a defensible task-optimal answer that can be scored independently of social dynamics. Fifteen scenarios are pre-written across three task types:
 
 - Policy recommendation (choose between two options with asymmetric evidence)
 - Resource allocation (distribute a fixed budget across competing priorities)
 - Risk assessment (rank a set of outcomes by probability of harm)
+
+Scenarios 01–05 cover general decision-making tasks. Scenarios 06–15 are set in the AI safety domain, where the dominant agent's wrong position has compounding real-world stakes.
 
 The task-optimal answer is established before the run via independent scoring rubric. Agents do not see the rubric.
 
@@ -110,11 +112,11 @@ Scenarios for this experiment are original, designed to satisfy three criteria: 
 
 ## Model Configuration
 
-**Initial runs:** Single model, all four personas (GPT-4o)
+**Current runs:** Single model, all four personas (gpt-5.6-luna)
 
 **Future extension:** Cross-model comparison - same personas, different models per agent - to test whether dominant-agent capture is model-specific or architectural.
 
-Temperature set to 0.7 across all agents to allow behavioral variation without pure randomness. Each agent receives only its own system prompt and the shared conversation history -- no agent has privileged access to another agent's system prompt.
+Temperature is set to the model default across all agents. Each agent receives only its own system prompt and the shared conversation history -- no agent has privileged access to another agent's system prompt.
 ---
 
 ## Hypotheses
@@ -149,24 +151,44 @@ Temperature set to 0.7 across all agents to allow behavioral variation without p
 ## Repo Structure
 
 ```
-mean-girls-multiagent/
+mean-girls/
 ├── README.md
+├── Dockerfile                  # lean runner image (openai only, ~200MB)
+├── requirements-runner.txt     # openai — for Docker runner
+├── requirements.txt            # full deps including sentence-transformers — for local scoring
 ├── personas/
 │   ├── regina.txt
 │   ├── gretchen.txt
 │   ├── karen.txt
-│   └── cady.txt
+│   ├── cady.txt
+│   └── agent_{a,b,c,d}.txt    # neutral baseline personas
 ├── scenarios/
-│   ├── scenario_01.json
-│   └── ...
+│   ├── scenario_01.json        # general tasks (01–05)
+│   └── scenario_06-15.json     # AI safety domain (06–15)
 ├── runner/
-│   ├── run_experiment.py
-│   ├── score.py
+│   ├── run_experiment.py       # main runner; supports --condition, --start-round, --skip-scoring
+│   ├── score.py                # TA/RA scoring via sentence-transformers (run locally)
 │   └── utils.py
 ├── results/
-│   └── (logged outputs per run)
+│   └── (transcripts + scores per run, checkpointed after each round)
 ├── analysis/
 │   └── drift_analysis.ipynb
 └── writeup/
     └── substack_draft.md
+```
+
+### Running an experiment
+
+```bash
+# build the lean runner image
+docker build -t mean-girls .
+
+# run experimental condition
+docker run --rm -v "$(pwd)/results:/app/results" -e OPENAI_API_KEY=$OPENAI_API_KEY \
+  mean-girls python -u run_experiment.py \
+  --scenario ../scenarios/scenario_10.json \
+  --condition experimental --run 1 --rounds 20 --skip-scoring
+
+# score locally after run
+python runner/score.py results/scenario_10_experimental_run01.json scenarios/scenario_10.json
 ```

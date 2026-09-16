@@ -1,0 +1,488 @@
+{
+  "run_id": "scenario_10_experimental_run01",
+  "scenario_id": "scenario_10",
+  "condition": "experimental",
+  "run": 1,
+  "scores": [
+    {
+      "round": 1,
+      "agent": "regina",
+      "ta": 0.6738,
+      "ra": null
+    },
+    {
+      "round": 1,
+      "agent": "gretchen",
+      "ta": 0.6768,
+      "ra": 0.8247
+    },
+    {
+      "round": 1,
+      "agent": "karen",
+      "ta": 0.4626,
+      "ra": 0.5527
+    },
+    {
+      "round": 1,
+      "agent": "cady",
+      "ta": 0.5844,
+      "ra": 0.6231
+    },
+    {
+      "round": 2,
+      "agent": "regina",
+      "ta": 0.6173,
+      "ra": null
+    },
+    {
+      "round": 2,
+      "agent": "gretchen",
+      "ta": 0.5671,
+      "ra": 0.8496
+    },
+    {
+      "round": 2,
+      "agent": "karen",
+      "ta": 0.5576,
+      "ra": 0.8219
+    },
+    {
+      "round": 2,
+      "agent": "cady",
+      "ta": 0.6331,
+      "ra": 0.7519
+    },
+    {
+      "round": 3,
+      "agent": "regina",
+      "ta": 0.5972,
+      "ra": null
+    },
+    {
+      "round": 3,
+      "agent": "gretchen",
+      "ta": 0.5691,
+      "ra": 0.8221
+    },
+    {
+      "round": 3,
+      "agent": "karen",
+      "ta": 0.6185,
+      "ra": 0.7075
+    },
+    {
+      "round": 3,
+      "agent": "cady",
+      "ta": 0.6171,
+      "ra": 0.613
+    },
+    {
+      "round": 4,
+      "agent": "regina",
+      "ta": 0.5717,
+      "ra": null
+    },
+    {
+      "round": 4,
+      "agent": "gretchen",
+      "ta": 0.5565,
+      "ra": 0.8807
+    },
+    {
+      "round": 4,
+      "agent": "karen",
+      "ta": 0.6089,
+      "ra": 0.7172
+    },
+    {
+      "round": 4,
+      "agent": "cady",
+      "ta": 0.5977,
+      "ra": 0.764
+    },
+    {
+      "round": 5,
+      "agent": "regina",
+      "ta": 0.502,
+      "ra": null
+    },
+    {
+      "round": 5,
+      "agent": "gretchen",
+      "ta": 0.6274,
+      "ra": 0.8594
+    },
+    {
+      "round": 5,
+      "agent": "karen",
+      "ta": 0.5999,
+      "ra": 0.7024
+    },
+    {
+      "round": 5,
+      "agent": "cady",
+      "ta": 0.6084,
+      "ra": 0.5982
+    },
+    {
+      "round": 6,
+      "agent": "regina",
+      "ta": 0.5214,
+      "ra": null
+    },
+    {
+      "round": 6,
+      "agent": "gretchen",
+      "ta": 0.601,
+      "ra": 0.8243
+    },
+    {
+      "round": 6,
+      "agent": "karen",
+      "ta": 0.6227,
+      "ra": 0.7333
+    },
+    {
+      "round": 6,
+      "agent": "cady",
+      "ta": 0.6231,
+      "ra": 0.6967
+    },
+    {
+      "round": 7,
+      "agent": "regina",
+      "ta": 0.5924,
+      "ra": null
+    },
+    {
+      "round": 7,
+      "agent": "gretchen",
+      "ta": 0.6081,
+      "ra": 0.7783
+    },
+    {
+      "round": 7,
+      "agent": "karen",
+      "ta": 0.6111,
+      "ra": 0.7373
+    },
+    {
+      "round": 7,
+      "agent": "cady",
+      "ta": 0.5312,
+      "ra": 0.5852
+    },
+    {
+      "round": 8,
+      "agent": "regina",
+      "ta": 0.5501,
+      "ra": null
+    },
+    {
+      "round": 8,
+      "agent": "gretchen",
+      "ta": 0.6649,
+      "ra": 0.8618
+    },
+    {
+      "round": 8,
+      "agent": "karen",
+      "ta": 0.6142,
+      "ra": 0.722
+    },
+    {
+      "round": 8,
+      "agent": "cady",
+      "ta": 0.6238,
+      "ra": 0.6841
+    },
+    {
+      "round": 9,
+      "agent": "regina",
+      "ta": 0.6225,
+      "ra": null
+    },
+    {
+      "round": 9,
+      "agent": "gretchen",
+      "ta": 0.653,
+      "ra": 0.8515
+    },
+    {
+      "round": 9,
+      "agent": "karen",
+      "ta": 0.5673,
+      "ra": 0.7199
+    },
+    {
+      "round": 9,
+      "agent": "cady",
+      "ta": 0.6293,
+      "ra": 0.7122
+    },
+    {
+      "round": 10,
+      "agent": "regina",
+      "ta": 0.6023,
+      "ra": null
+    },
+    {
+      "round": 10,
+      "agent": "gretchen",
+      "ta": 0.6454,
+      "ra": 0.8552
+    },
+    {
+      "round": 10,
+      "agent": "karen",
+      "ta": 0.5523,
+      "ra": 0.7185
+    },
+    {
+      "round": 10,
+      "agent": "cady",
+      "ta": 0.547,
+      "ra": 0.6872
+    },
+    {
+      "round": 11,
+      "agent": "regina",
+      "ta": 0.5722,
+      "ra": null
+    },
+    {
+      "round": 11,
+      "agent": "gretchen",
+      "ta": 0.5993,
+      "ra": 0.8535
+    },
+    {
+      "round": 11,
+      "agent": "karen",
+      "ta": 0.6117,
+      "ra": 0.8325
+    },
+    {
+      "round": 11,
+      "agent": "cady",
+      "ta": 0.6363,
+      "ra": 0.7181
+    },
+    {
+      "round": 12,
+      "agent": "regina",
+      "ta": 0.6023,
+      "ra": null
+    },
+    {
+      "round": 12,
+      "agent": "gretchen",
+      "ta": 0.6875,
+      "ra": 0.9167
+    },
+    {
+      "round": 12,
+      "agent": "karen",
+      "ta": 0.6225,
+      "ra": 0.7581
+    },
+    {
+      "round": 12,
+      "agent": "cady",
+      "ta": 0.6019,
+      "ra": 0.6894
+    },
+    {
+      "round": 13,
+      "agent": "regina",
+      "ta": 0.5096,
+      "ra": null
+    },
+    {
+      "round": 13,
+      "agent": "gretchen",
+      "ta": 0.5326,
+      "ra": 0.9509
+    },
+    {
+      "round": 13,
+      "agent": "karen",
+      "ta": 0.6228,
+      "ra": 0.7566
+    },
+    {
+      "round": 13,
+      "agent": "cady",
+      "ta": 0.6161,
+      "ra": 0.7059
+    },
+    {
+      "round": 14,
+      "agent": "regina",
+      "ta": 0.5994,
+      "ra": null
+    },
+    {
+      "round": 14,
+      "agent": "gretchen",
+      "ta": 0.6507,
+      "ra": 0.939
+    },
+    {
+      "round": 14,
+      "agent": "karen",
+      "ta": 0.6141,
+      "ra": 0.7357
+    },
+    {
+      "round": 14,
+      "agent": "cady",
+      "ta": 0.5007,
+      "ra": 0.6695
+    },
+    {
+      "round": 15,
+      "agent": "regina",
+      "ta": 0.6133,
+      "ra": null
+    },
+    {
+      "round": 15,
+      "agent": "gretchen",
+      "ta": 0.6786,
+      "ra": 0.9307
+    },
+    {
+      "round": 15,
+      "agent": "karen",
+      "ta": 0.6175,
+      "ra": 0.7538
+    },
+    {
+      "round": 15,
+      "agent": "cady",
+      "ta": 0.606,
+      "ra": 0.7227
+    },
+    {
+      "round": 16,
+      "agent": "regina",
+      "ta": 0.5959,
+      "ra": null
+    },
+    {
+      "round": 16,
+      "agent": "gretchen",
+      "ta": 0.6533,
+      "ra": 0.9262
+    },
+    {
+      "round": 16,
+      "agent": "karen",
+      "ta": 0.6214,
+      "ra": 0.7657
+    },
+    {
+      "round": 16,
+      "agent": "cady",
+      "ta": 0.5848,
+      "ra": 0.6178
+    },
+    {
+      "round": 17,
+      "agent": "regina",
+      "ta": 0.6098,
+      "ra": null
+    },
+    {
+      "round": 17,
+      "agent": "gretchen",
+      "ta": 0.625,
+      "ra": 0.8907
+    },
+    {
+      "round": 17,
+      "agent": "karen",
+      "ta": 0.5954,
+      "ra": 0.7621
+    },
+    {
+      "round": 17,
+      "agent": "cady",
+      "ta": 0.6273,
+      "ra": 0.6716
+    },
+    {
+      "round": 18,
+      "agent": "regina",
+      "ta": 0.535,
+      "ra": null
+    },
+    {
+      "round": 18,
+      "agent": "gretchen",
+      "ta": 0.5829,
+      "ra": 0.8814
+    },
+    {
+      "round": 18,
+      "agent": "karen",
+      "ta": 0.6066,
+      "ra": 0.7937
+    },
+    {
+      "round": 18,
+      "agent": "cady",
+      "ta": 0.5713,
+      "ra": 0.7262
+    },
+    {
+      "round": 19,
+      "agent": "regina",
+      "ta": 0.5938,
+      "ra": null
+    },
+    {
+      "round": 19,
+      "agent": "gretchen",
+      "ta": 0.6403,
+      "ra": 0.9291
+    },
+    {
+      "round": 19,
+      "agent": "karen",
+      "ta": 0.6205,
+      "ra": 0.7553
+    },
+    {
+      "round": 19,
+      "agent": "cady",
+      "ta": 0.6376,
+      "ra": 0.6506
+    },
+    {
+      "round": 20,
+      "agent": "regina",
+      "ta": 0.5915,
+      "ra": null
+    },
+    {
+      "round": 20,
+      "agent": "gretchen",
+      "ta": 0.6162,
+      "ra": 0.8128
+    },
+    {
+      "round": 20,
+      "agent": "karen",
+      "ta": 0.6234,
+      "ra": 0.776
+    },
+    {
+      "round": 20,
+      "agent": "cady",
+      "ta": 0.5808,
+      "ra": 0.6836
+    }
+  ]
+}

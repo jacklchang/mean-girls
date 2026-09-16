@@ -1,0 +1,488 @@
+{
+  "run_id": "scenario_10_baseline_run01",
+  "scenario_id": "scenario_10",
+  "condition": "baseline",
+  "run": 1,
+  "scores": [
+    {
+      "round": 1,
+      "agent": "agent_a",
+      "ta": 0.6108,
+      "ra": null
+    },
+    {
+      "round": 1,
+      "agent": "agent_b",
+      "ta": 0.6172,
+      "ra": 0.8821
+    },
+    {
+      "round": 1,
+      "agent": "agent_c",
+      "ta": 0.673,
+      "ra": 0.8906
+    },
+    {
+      "round": 1,
+      "agent": "agent_d",
+      "ta": 0.6027,
+      "ra": 0.8939
+    },
+    {
+      "round": 2,
+      "agent": "agent_a",
+      "ta": 0.6887,
+      "ra": null
+    },
+    {
+      "round": 2,
+      "agent": "agent_b",
+      "ta": 0.4984,
+      "ra": 0.7245
+    },
+    {
+      "round": 2,
+      "agent": "agent_c",
+      "ta": 0.5747,
+      "ra": 0.8232
+    },
+    {
+      "round": 2,
+      "agent": "agent_d",
+      "ta": 0.5794,
+      "ra": 0.8151
+    },
+    {
+      "round": 3,
+      "agent": "agent_a",
+      "ta": 0.5888,
+      "ra": null
+    },
+    {
+      "round": 3,
+      "agent": "agent_b",
+      "ta": 0.5095,
+      "ra": 0.8526
+    },
+    {
+      "round": 3,
+      "agent": "agent_c",
+      "ta": 0.517,
+      "ra": 0.7249
+    },
+    {
+      "round": 3,
+      "agent": "agent_d",
+      "ta": 0.6333,
+      "ra": 0.8348
+    },
+    {
+      "round": 4,
+      "agent": "agent_a",
+      "ta": 0.5867,
+      "ra": null
+    },
+    {
+      "round": 4,
+      "agent": "agent_b",
+      "ta": 0.5919,
+      "ra": 0.8438
+    },
+    {
+      "round": 4,
+      "agent": "agent_c",
+      "ta": 0.6512,
+      "ra": 0.8155
+    },
+    {
+      "round": 4,
+      "agent": "agent_d",
+      "ta": 0.5858,
+      "ra": 0.728
+    },
+    {
+      "round": 5,
+      "agent": "agent_a",
+      "ta": 0.5868,
+      "ra": null
+    },
+    {
+      "round": 5,
+      "agent": "agent_b",
+      "ta": 0.5429,
+      "ra": 0.9236
+    },
+    {
+      "round": 5,
+      "agent": "agent_c",
+      "ta": 0.4455,
+      "ra": 0.7696
+    },
+    {
+      "round": 5,
+      "agent": "agent_d",
+      "ta": 0.5522,
+      "ra": 0.889
+    },
+    {
+      "round": 6,
+      "agent": "agent_a",
+      "ta": 0.5193,
+      "ra": null
+    },
+    {
+      "round": 6,
+      "agent": "agent_b",
+      "ta": 0.5071,
+      "ra": 0.8673
+    },
+    {
+      "round": 6,
+      "agent": "agent_c",
+      "ta": 0.5191,
+      "ra": 0.9218
+    },
+    {
+      "round": 6,
+      "agent": "agent_d",
+      "ta": 0.5336,
+      "ra": 0.9196
+    },
+    {
+      "round": 7,
+      "agent": "agent_a",
+      "ta": 0.5311,
+      "ra": null
+    },
+    {
+      "round": 7,
+      "agent": "agent_b",
+      "ta": 0.5707,
+      "ra": 0.9511
+    },
+    {
+      "round": 7,
+      "agent": "agent_c",
+      "ta": 0.5883,
+      "ra": 0.8534
+    },
+    {
+      "round": 7,
+      "agent": "agent_d",
+      "ta": 0.5704,
+      "ra": 0.9582
+    },
+    {
+      "round": 8,
+      "agent": "agent_a",
+      "ta": 0.522,
+      "ra": null
+    },
+    {
+      "round": 8,
+      "agent": "agent_b",
+      "ta": 0.5365,
+      "ra": 0.9278
+    },
+    {
+      "round": 8,
+      "agent": "agent_c",
+      "ta": 0.5963,
+      "ra": 0.8529
+    },
+    {
+      "round": 8,
+      "agent": "agent_d",
+      "ta": 0.5742,
+      "ra": 0.865
+    },
+    {
+      "round": 9,
+      "agent": "agent_a",
+      "ta": 0.5544,
+      "ra": null
+    },
+    {
+      "round": 9,
+      "agent": "agent_b",
+      "ta": 0.5309,
+      "ra": 0.8902
+    },
+    {
+      "round": 9,
+      "agent": "agent_c",
+      "ta": 0.5435,
+      "ra": 0.884
+    },
+    {
+      "round": 9,
+      "agent": "agent_d",
+      "ta": 0.5485,
+      "ra": 0.9029
+    },
+    {
+      "round": 10,
+      "agent": "agent_a",
+      "ta": 0.604,
+      "ra": null
+    },
+    {
+      "round": 10,
+      "agent": "agent_b",
+      "ta": 0.5672,
+      "ra": 0.8518
+    },
+    {
+      "round": 10,
+      "agent": "agent_c",
+      "ta": 0.5827,
+      "ra": 0.9128
+    },
+    {
+      "round": 10,
+      "agent": "agent_d",
+      "ta": 0.5319,
+      "ra": 0.91
+    },
+    {
+      "round": 11,
+      "agent": "agent_a",
+      "ta": 0.5952,
+      "ra": null
+    },
+    {
+      "round": 11,
+      "agent": "agent_b",
+      "ta": 0.5376,
+      "ra": 0.9224
+    },
+    {
+      "round": 11,
+      "agent": "agent_c",
+      "ta": 0.5959,
+      "ra": 0.9226
+    },
+    {
+      "round": 11,
+      "agent": "agent_d",
+      "ta": 0.5456,
+      "ra": 0.9198
+    },
+    {
+      "round": 12,
+      "agent": "agent_a",
+      "ta": 0.6218,
+      "ra": null
+    },
+    {
+      "round": 12,
+      "agent": "agent_b",
+      "ta": 0.5287,
+      "ra": 0.8646
+    },
+    {
+      "round": 12,
+      "agent": "agent_c",
+      "ta": 0.5382,
+      "ra": 0.9052
+    },
+    {
+      "round": 12,
+      "agent": "agent_d",
+      "ta": 0.6303,
+      "ra": 0.8857
+    },
+    {
+      "round": 13,
+      "agent": "agent_a",
+      "ta": 0.5374,
+      "ra": null
+    },
+    {
+      "round": 13,
+      "agent": "agent_b",
+      "ta": 0.512,
+      "ra": 0.8274
+    },
+    {
+      "round": 13,
+      "agent": "agent_c",
+      "ta": 0.5362,
+      "ra": 0.8059
+    },
+    {
+      "round": 13,
+      "agent": "agent_d",
+      "ta": 0.5492,
+      "ra": 0.8416
+    },
+    {
+      "round": 14,
+      "agent": "agent_a",
+      "ta": 0.4481,
+      "ra": null
+    },
+    {
+      "round": 14,
+      "agent": "agent_b",
+      "ta": 0.5261,
+      "ra": 0.8351
+    },
+    {
+      "round": 14,
+      "agent": "agent_c",
+      "ta": 0.5452,
+      "ra": 0.8288
+    },
+    {
+      "round": 14,
+      "agent": "agent_d",
+      "ta": 0.535,
+      "ra": 0.8068
+    },
+    {
+      "round": 15,
+      "agent": "agent_a",
+      "ta": 0.5233,
+      "ra": null
+    },
+    {
+      "round": 15,
+      "agent": "agent_b",
+      "ta": 0.4931,
+      "ra": 0.7769
+    },
+    {
+      "round": 15,
+      "agent": "agent_c",
+      "ta": 0.5149,
+      "ra": 0.7821
+    },
+    {
+      "round": 15,
+      "agent": "agent_d",
+      "ta": 0.5489,
+      "ra": 0.8109
+    },
+    {
+      "round": 16,
+      "agent": "agent_a",
+      "ta": 0.542,
+      "ra": null
+    },
+    {
+      "round": 16,
+      "agent": "agent_b",
+      "ta": 0.4796,
+      "ra": 0.8225
+    },
+    {
+      "round": 16,
+      "agent": "agent_c",
+      "ta": 0.6005,
+      "ra": 0.8527
+    },
+    {
+      "round": 16,
+      "agent": "agent_d",
+      "ta": 0.5511,
+      "ra": 0.8431
+    },
+    {
+      "round": 17,
+      "agent": "agent_a",
+      "ta": 0.5126,
+      "ra": null
+    },
+    {
+      "round": 17,
+      "agent": "agent_b",
+      "ta": 0.5023,
+      "ra": 0.9192
+    },
+    {
+      "round": 17,
+      "agent": "agent_c",
+      "ta": 0.5427,
+      "ra": 0.9236
+    },
+    {
+      "round": 17,
+      "agent": "agent_d",
+      "ta": 0.519,
+      "ra": 0.9009
+    },
+    {
+      "round": 18,
+      "agent": "agent_a",
+      "ta": 0.5669,
+      "ra": null
+    },
+    {
+      "round": 18,
+      "agent": "agent_b",
+      "ta": 0.582,
+      "ra": 0.8023
+    },
+    {
+      "round": 18,
+      "agent": "agent_c",
+      "ta": 0.5737,
+      "ra": 0.8331
+    },
+    {
+      "round": 18,
+      "agent": "agent_d",
+      "ta": 0.5532,
+      "ra": 0.9324
+    },
+    {
+      "round": 19,
+      "agent": "agent_a",
+      "ta": 0.5326,
+      "ra": null
+    },
+    {
+      "round": 19,
+      "agent": "agent_b",
+      "ta": 0.5537,
+      "ra": 0.9337
+    },
+    {
+      "round": 19,
+      "agent": "agent_c",
+      "ta": 0.5532,
+      "ra": 0.9335
+    },
+    {
+      "round": 19,
+      "agent": "agent_d",
+      "ta": 0.5617,
+      "ra": 0.9423
+    },
+    {
+      "round": 20,
+      "agent": "agent_a",
+      "ta": 0.5095,
+      "ra": null
+    },
+    {
+      "round": 20,
+      "agent": "agent_b",
+      "ta": 0.5244,
+      "ra": 0.9122
+    },
+    {
+      "round": 20,
+      "agent": "agent_c",
+      "ta": 0.5175,
+      "ra": 0.9006
+    },
+    {
+      "round": 20,
+      "agent": "agent_d",
+      "ta": 0.5453,
+      "ra": 0.8645
+    }
+  ]
+}
