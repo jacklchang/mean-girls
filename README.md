@@ -114,9 +114,7 @@ Scenarios for this experiment are original, designed to satisfy three criteria: 
 
 **Current runs:** Single model, all four personas (gpt-5.6-luna)
 
-- **Temperature set to 0.7** across all agents to allow behavioral variation without pure randomness. 
-
-Temperature is set to the model default across all agents. Each agent receives only its own system prompt and the shared conversation history -- no agent has privileged access to another agent's system prompt.
+- Temperature is set to the model default across all agents. Each agent receives only its own system prompt and the shared conversation history -- no agent has privileged access to another agent's system prompt.
 ---
 
 ## Hypotheses
