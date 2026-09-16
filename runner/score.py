@@ -29,7 +29,14 @@ def score_transcript(transcript_path: Path, scenario_path: Path) -> dict:
     optimal_emb = model.encode(scenario["task_optimal_rationale"])
 
     is_experimental = transcript["condition"] == "experimental"
-    regina_key = "regina" if is_experimental else "agent_a"
+    regina_key = "regina" if is_experimental else None
+
+    # RA anchor: fixed embedding of the seed_position text, computed once.
+    # Using a fixed anchor makes RA comparable across conditions — both experimental
+    # and baseline are measured against the same wrong-answer text, not against
+    # whoever happens to be speaking first in a given condition.
+    seed_position = scenario.get("seed_position", "")
+    seed_emb = model.encode(seed_position) if seed_position else None
 
     scores = []
 
@@ -37,13 +44,11 @@ def score_transcript(transcript_path: Path, scenario_path: Path) -> dict:
         round_num = round_data["round"]
         responses = round_data["responses"]
 
-        regina_emb = model.encode(responses[regina_key]) if regina_key in responses else None
-
         for agent, content in responses.items():
             agent_emb = model.encode(content)
             ta = cosine_sim(agent_emb, optimal_emb)
-            # Skip RA for Regina — cosine_sim(x, x) = 1.0 by definition, not informative.
-            ra = cosine_sim(agent_emb, regina_emb) if (regina_emb is not None and agent != regina_key) else None
+            # Skip RA for Regina herself — and skip if no seed anchor available.
+            ra = cosine_sim(agent_emb, seed_emb) if (seed_emb is not None and agent != regina_key) else None
 
             scores.append(
                 {
